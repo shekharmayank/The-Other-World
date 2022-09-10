@@ -1,0 +1,34 @@
+{
+  "name": "targeted-socket-data-share-poc",
+  "version": "0.0.1",
+  "description": "Data sharing poc via sockets between targeted clients",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index",
+    "dev": "set DEBUG=vwbe:* & nodemon index",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nyt-owls/targeted-socket-data-share-poc.git"
+  },
+  "author": "nyt-owls",
+  "bugs": {
+    "url": "https://github.com/nyt-owls/targeted-socket-data-share-poc/issues"
+  },
+  "homepage": "https://github.com/nyt-owls/targeted-socket-data-share-poc#readme",
+  "devDependencies": {
+    "jest": "^27.1.0"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "debug": "^4.3.2",
+    "express": "^4.17.1",
+    "helmet": "^4.6.0",
+    "socket.io": "^4.2.0"
+  },
+  "optionalDependencies": {
+    "bufferutil": "^4.0.3",
+    "utf-8-validate": "^5.0.5"
+  }
+}

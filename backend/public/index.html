@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Virtual World</title>
+  </head>
+  <body>
+    <h1>Welcome to Virtual World, your second home</h1>
+    <h2>Connection id: <span id="conn-id"></span></h2>
+    <h3>Joined rooms: <span id="rooms-info"></span></h3>
+    <p>How to test:
+      <ul>
+        <li>Open in two browsers</li>
+        <li>Enter same world in both</li>
+        <li>Click on green boxes</li>
+      </ul>
+    </p>
+    <input type="text" name="world" id="world" />
+    <button id="worldbtn">Enter World</button>
+    <input type="text" name="name" id="username" />
+    <button id="usernamebtn">Set Username</button>
+    <hr />
+    <div id="canvas"></div>
+  </body>
+  <script src="../socket.io/socket.io.js"></script>
+  <script src="js/index.js"></script>
+</html>

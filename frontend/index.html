@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Virtual World</title>
+  </head>
+  <body>
+    <div id="connection-info">
+      <div style="display: inline">
+        <img
+          src="https://img.icons8.com/color/50/000000/person-female.png"
+          height="16"
+        />
+        <span id="id-info"></span>
+      </div>
+      <div style="display: inline-block; margin-bottom: 5px">
+        <img
+          src="https://img.icons8.com/color/50/000000/earth-planet.png"
+          height="16"
+        />
+        <span id="rooms-info"></span>
+      </div>
+      <div>
+        <input type="text" id="world-input" placeholder="Join a world" />
+        <button id="world-btn">Enter</button>
+      </div>
+      <div>
+        <input type="text" id="username-input" placeholder="Your name" />
+        <button id="username-btn">Set Name</button>
+      </div>
+    </div>
+    <div class="canvas_container">
+      <canvas id="canvas_poc"></canvas>
+    </div>
+
+    <!-- Scripts -->
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
